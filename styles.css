@@ -97,6 +97,36 @@ h2 {
   padding: 52px 0;
 }
 
+.lead {
+  color: var(--muted);
+  max-width: 760px;
+}
+
+.section-links {
+  border-bottom: 1px solid var(--line);
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.link-grid a {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-grid a:hover {
+  border-color: var(--primary);
+}
+
 .section-alt {
   background: #edf3ff;
   border-top: 1px solid var(--line);
@@ -144,4 +174,8 @@ footer {
   padding: 28px 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+footer a {
+  color: var(--primary-dark);
 }
