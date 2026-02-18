@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 420'>
+  <defs>
+    <linearGradient id='g1' x1='0' x2='1'>
+      <stop offset='0%' stop-color='#ff8a00'/>
+      <stop offset='100%' stop-color='#ff5a00'/>
+    </linearGradient>
+  </defs>
+  <rect width='640' height='420' fill='#f4f8ff'/>
+  <rect x='70' y='180' rx='22' width='500' height='150' fill='url(#g1)'/>
+  <rect x='120' y='210' width='110' height='38' rx='10' fill='#fff' opacity='0.85'/>
+  <rect x='255' y='210' width='110' height='38' rx='10' fill='#fff' opacity='0.85'/>
+  <rect x='390' y='210' width='110' height='38' rx='10' fill='#fff' opacity='0.85'/>
+  <rect x='0' y='330' width='640' height='90' fill='#d6e2f8'/>
+  <text x='50%' y='80' font-size='34' text-anchor='middle' fill='#1a2233' font-family='Arial'>Su Doldurulabilir Bariyer</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 420'>
+  <rect width='640' height='420' fill='#f8faff'/>
+  <rect x='0' y='305' width='640' height='115' fill='#dae5fa'/>
+  <rect x='262' y='130' width='116' height='182' rx='16' fill='#fdd432' stroke='#1b2b52' stroke-width='8'/>
+  <rect x='278' y='155' width='84' height='55' rx='8' fill='#1b2b52'/>
+  <circle cx='320' cy='252' r='20' fill='#1b2b52'/>
+  <text x='50%' y='75' font-size='34' text-anchor='middle' fill='#1a2233' font-family='Arial'>Kilitli Otopark Direği</text>
+</svg>
