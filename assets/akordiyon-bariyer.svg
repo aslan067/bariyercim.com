@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 420'>
+  <rect width='640' height='420' fill='#f7f9ff'/>
+  <rect x='60' y='320' width='520' height='24' rx='8' fill='#b8c7e6'/>
+  <g stroke='#f6b300' stroke-width='16' stroke-linecap='round'>
+    <line x1='120' y1='290' x2='200' y2='130'/>
+    <line x1='200' y1='290' x2='280' y2='130'/>
+    <line x1='280' y1='290' x2='360' y2='130'/>
+    <line x1='360' y1='290' x2='440' y2='130'/>
+    <line x1='440' y1='290' x2='520' y2='130'/>
+    <line x1='120' y1='130' x2='200' y2='290'/>
+    <line x1='200' y1='130' x2='280' y2='290'/>
+    <line x1='280' y1='130' x2='360' y2='290'/>
+    <line x1='360' y1='130' x2='440' y2='290'/>
+    <line x1='440' y1='130' x2='520' y2='290'/>
+  </g>
+  <text x='50%' y='70' font-size='34' text-anchor='middle' fill='#1a2233' font-family='Arial'>Metal Akordiyon Bariyer</text>
+</svg>
