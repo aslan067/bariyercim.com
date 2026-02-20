@@ -328,3 +328,70 @@ footer a {
         font-size: 30px;
     }
 }
+
+/* --- SEO İÇERİK ALANI (MAKALE VE REHBER) --- */
+.seo-content-section {
+    background-color: #ffffff;
+    padding: 80px 0;
+    border-top: 1px solid #e9ecef;
+}
+
+.seo-article h2 {
+    margin-bottom: 30px;
+    color: #1d3557;
+    text-align: center;
+}
+
+/* Ana açıklama paragrafı */
+.seo-article > p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 850px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* SEO için vurgulanan kelimeler */
+.seo-article strong {
+    color: #e63946;
+}
+
+/* Metin kutularının yan yana dizilmesi */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.content-box {
+    background: #f8f9fa;
+    padding: 35px;
+    border-radius: 8px;
+    /* Sol tarafa dikkat çekici kırmızı bir çizgi ekliyoruz */
+    border-left: 5px solid #e63946; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.content-box h3 {
+    color: #1d3557;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.content-box ul {
+    list-style-position: outside;
+    margin-left: 20px;
+    color: #555;
+}
+
+.content-box ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.content-box p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
