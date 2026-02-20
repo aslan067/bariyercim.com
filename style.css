@@ -151,10 +151,24 @@ nav ul li a:hover {
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-.product-card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
+/* --- ÜRÜN İKONLARI TASARIMI --- */
+.icon-container {
+    background-color: #f4f7f6; /* İkonun arkasında hafif bir gri fon */
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 2px solid #e9ecef;
+    transition: background-color 0.3s ease;
+}
+
+.icon-container i {
+    font-size: 4rem; /* İkon boyutu (oldukça büyük ve dikkat çekici) */
+    color: #e63946; /* Markanızın kırmızı/turuncu tonu */
+    transition: transform 0.3s ease;
+}
+
+/* Kartın üzerine gelince ikon hafifçe büyür */
+.product-card:hover .icon-container i {
+    transform: scale(1.1);
 }
 
 .product-info {
