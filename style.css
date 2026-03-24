@@ -329,6 +329,42 @@ footer a {
     }
 }
 
+/* --- BREADCRUMB --- */
+.breadcrumb-bar {
+    background: #f0f4f8;
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.breadcrumb li + li::before {
+    content: '›';
+    color: #999;
+}
+
+.breadcrumb a {
+    color: #1d3557;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: #e63946;
+    text-decoration: underline;
+}
+
+/* --- DELİNATÖR HERO VARYANTI --- */
+.hero-delinatorler {
+    background: linear-gradient(rgba(29, 53, 87, 0.85), rgba(29, 53, 87, 0.85)), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+}
+
 /* --- SEO İÇERİK ALANI (MAKALE VE REHBER) --- */
 .seo-content-section {
     background-color: #ffffff;
